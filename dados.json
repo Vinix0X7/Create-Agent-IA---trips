@@ -1,0 +1,82 @@
+{
+ "_aviso": "Dados DIDÁTICOS para o Projeto Desafio CAVI 2026-2. Preços, horários, cotações e clima são aproximados e podem estar desatualizados. Não use para decisões reais: confirme sempre nas fontes oficiais.",
+ "cotacoes_para_brl": {"_referencia": "cotação didática fixa (nov/2026)", "BRL": 1.0, "EUR": 6.2, "USD": 5.6, "ARS": 0.0055},
+ "destinos": {
+  "lisboa": {
+   "nome": "Lisboa",
+   "pais": "Portugal",
+   "moeda": "EUR",
+   "aliases": ["lisboa", "lisbon", "portugal"],
+   "hospedagem_noite_quarto_brl": {"economica": 380, "media": 680, "superior": 1250},
+   "alimentacao_dia_pessoa_brl": 230,
+   "transporte_local_dia_pessoa_brl": 45,
+   "passagem_estimada_brl_por_pessoa": 4800,
+   "clima": {"1": {"mes": "janeiro", "temp_min_c": 8, "temp_max_c": 15, "dias_de_chuva": 10}, "2": {"mes": "fevereiro", "temp_min_c": 9, "temp_max_c": 16, "dias_de_chuva": 9}, "3": {"mes": "março", "temp_min_c": 11, "temp_max_c": 19, "dias_de_chuva": 8}, "4": {"mes": "abril", "temp_min_c": 12, "temp_max_c": 20, "dias_de_chuva": 9}, "5": {"mes": "maio", "temp_min_c": 14, "temp_max_c": 23, "dias_de_chuva": 6}, "6": {"mes": "junho", "temp_min_c": 17, "temp_max_c": 27, "dias_de_chuva": 3}, "7": {"mes": "julho", "temp_min_c": 18, "temp_max_c": 29, "dias_de_chuva": 1}, "8": {"mes": "agosto", "temp_min_c": 19, "temp_max_c": 29, "dias_de_chuva": 1}, "9": {"mes": "setembro", "temp_min_c": 18, "temp_max_c": 27, "dias_de_chuva": 4}, "10": {"mes": "outubro", "temp_min_c": 15, "temp_max_c": 23, "dias_de_chuva": 8}, "11": {"mes": "novembro", "temp_min_c": 12, "temp_max_c": 18, "dias_de_chuva": 10}, "12": {"mes": "dezembro", "temp_min_c": 9, "temp_max_c": 15, "dias_de_chuva": 11}},
+   "requisitos_entrada": {"brasileira": {"documento": "Passaporte válido (recomendado: validade mínima de 3 meses após a data de saída do espaço Schengen).", "visto": "Não exigido para turismo por até 90 dias a cada 180 dias.", "outros": ["Podem ser solicitados comprovante de hospedagem, passagem de volta e meios de subsistência.", "Seguro viagem com cobertura médica mínima de 30 mil euros é fortemente recomendado.", "Verifique se a autorização eletrônica europeia ETIAS já está em vigor na data da viagem."], "fonte_oficial": "Portal Consular do Itamaraty e site oficial da União Europeia sobre viagens"}},
+   "atracoes": [
+    {"id": "LIS01", "nome": "Mosteiro dos Jerónimos", "categorias": ["cultural"], "preco_local": 18, "duracao_h": 2, "periodo": "manha", "fechado_em": ["segunda"], "acessivel": true, "bom_para_criancas": true, "bairro": "Belém", "descricao": "Mosteiro manuelino, Patrimônio Mundial."},
+    {"id": "LIS02", "nome": "Torre de Belém", "categorias": ["cultural"], "preco_local": 10, "duracao_h": 1, "periodo": "manha", "fechado_em": ["segunda"], "acessivel": false, "bom_para_criancas": true, "bairro": "Belém", "descricao": "Fortaleza do século XVI à beira do Tejo; acesso por escadas estreitas."},
+    {"id": "LIS03", "nome": "Pastéis de Belém (degustação)", "categorias": ["gastronomico", "familia"], "preco_local": 6, "duracao_h": 1, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Belém", "descricao": "Casa tradicional dos pastéis de nata."},
+    {"id": "LIS04", "nome": "Passeio no Elétrico 28", "categorias": ["cultural", "familia"], "preco_local": 3.1, "duracao_h": 1, "periodo": "manha", "fechado_em": [], "acessivel": false, "bom_para_criancas": true, "bairro": "Graça/Alfama", "descricao": "Bonde histórico pelas colinas da cidade."},
+    {"id": "LIS05", "nome": "Castelo de São Jorge", "categorias": ["cultural", "familia"], "preco_local": 15, "duracao_h": 2, "periodo": "tarde", "fechado_em": [], "acessivel": false, "bom_para_criancas": true, "bairro": "Alfama", "descricao": "Castelo medieval com vista panorâmica."},
+    {"id": "LIS06", "nome": "Oceanário de Lisboa", "categorias": ["familia", "natureza"], "preco_local": 25, "duracao_h": 2.5, "periodo": "manha", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Parque das Nações", "descricao": "Um dos maiores aquários da Europa."},
+    {"id": "LIS07", "nome": "Time Out Market", "categorias": ["gastronomico"], "preco_local": 25, "duracao_h": 1.5, "periodo": "noite", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Cais do Sodré", "descricao": "Mercado com dezenas de restaurantes (valor médio de refeição)."},
+    {"id": "LIS08", "nome": "Noite de fado em Alfama", "categorias": ["cultural", "gastronomico"], "preco_local": 45, "duracao_h": 2.5, "periodo": "noite", "fechado_em": ["domingo"], "acessivel": true, "bom_para_criancas": false, "bairro": "Alfama", "descricao": "Casa de fado com consumo mínimo."},
+    {"id": "LIS09", "nome": "Bate-volta a Sintra", "categorias": ["natureza", "aventura", "cultural"], "preco_local": 35, "duracao_h": 7, "periodo": "dia_inteiro", "fechado_em": [], "acessivel": false, "bom_para_criancas": true, "bairro": "Sintra", "descricao": "Trem + entrada em um parque/palácio."},
+    {"id": "LIS10", "nome": "Miradouro da Senhora do Monte", "categorias": ["relax", "natureza"], "preco_local": 0, "duracao_h": 1, "periodo": "tarde", "fechado_em": [], "acessivel": false, "bom_para_criancas": true, "bairro": "Graça", "descricao": "Mirante gratuito, ótimo no pôr do sol."},
+    {"id": "LIS11", "nome": "LX Factory", "categorias": ["compras", "cultural"], "preco_local": 0, "duracao_h": 2, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Alcântara", "descricao": "Antiga fábrica com lojas, livrarias e cafés."},
+    {"id": "LIS12", "nome": "Passeio pela orla de Cascais", "categorias": ["relax", "natureza"], "preco_local": 5, "duracao_h": 4, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Cascais", "descricao": "Trem até Cascais e caminhada à beira-mar."}
+   ]
+  },
+  "buenos_aires": {
+   "nome": "Buenos Aires",
+   "pais": "Argentina",
+   "moeda": "ARS",
+   "aliases": ["buenos aires", "bsas", "argentina", "baires"],
+   "hospedagem_noite_quarto_brl": {"economica": 260, "media": 480, "superior": 950},
+   "alimentacao_dia_pessoa_brl": 170,
+   "transporte_local_dia_pessoa_brl": 30,
+   "passagem_estimada_brl_por_pessoa": 1900,
+   "clima": {"1": {"mes": "janeiro", "temp_min_c": 21, "temp_max_c": 31, "dias_de_chuva": 9}, "2": {"mes": "fevereiro", "temp_min_c": 20, "temp_max_c": 29, "dias_de_chuva": 9}, "3": {"mes": "março", "temp_min_c": 18, "temp_max_c": 27, "dias_de_chuva": 9}, "4": {"mes": "abril", "temp_min_c": 14, "temp_max_c": 23, "dias_de_chuva": 9}, "5": {"mes": "maio", "temp_min_c": 11, "temp_max_c": 19, "dias_de_chuva": 7}, "6": {"mes": "junho", "temp_min_c": 8, "temp_max_c": 16, "dias_de_chuva": 7}, "7": {"mes": "julho", "temp_min_c": 7, "temp_max_c": 15, "dias_de_chuva": 7}, "8": {"mes": "agosto", "temp_min_c": 8, "temp_max_c": 17, "dias_de_chuva": 7}, "9": {"mes": "setembro", "temp_min_c": 10, "temp_max_c": 19, "dias_de_chuva": 8}, "10": {"mes": "outubro", "temp_min_c": 13, "temp_max_c": 23, "dias_de_chuva": 10}, "11": {"mes": "novembro", "temp_min_c": 16, "temp_max_c": 26, "dias_de_chuva": 10}, "12": {"mes": "dezembro", "temp_min_c": 19, "temp_max_c": 29, "dias_de_chuva": 10}},
+   "requisitos_entrada": {"brasileira": {"documento": "RG (carteira de identidade) em bom estado e legível, ou passaporte válido. CNH não é aceita como documento de viagem.", "visto": "Não exigido para turismo por até 90 dias (acordo do Mercosul).", "outros": ["Menores de idade precisam de autorização de viagem quando não acompanhados por ambos os pais.", "Seguro viagem é recomendado."], "fonte_oficial": "Portal Consular do Itamaraty"}},
+   "atracoes": [
+    {"id": "BUE01", "nome": "Caminito (La Boca)", "categorias": ["cultural"], "preco_local": 0, "duracao_h": 1.5, "periodo": "manha", "fechado_em": [], "acessivel": false, "bom_para_criancas": true, "bairro": "La Boca", "descricao": "Rua colorida e símbolo do tango; visite de dia."},
+    {"id": "BUE02", "nome": "Visita guiada ao Teatro Colón", "categorias": ["cultural"], "preco_local": 45000, "duracao_h": 1, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Centro", "descricao": "Um dos teatros de ópera mais importantes do mundo."},
+    {"id": "BUE03", "nome": "Cemitério da Recoleta", "categorias": ["cultural"], "preco_local": 18000, "duracao_h": 1.5, "periodo": "manha", "fechado_em": [], "acessivel": true, "bom_para_criancas": false, "bairro": "Recoleta", "descricao": "Mausoléus históricos, incluindo o de Evita."},
+    {"id": "BUE04", "nome": "Show de tango com jantar", "categorias": ["cultural", "gastronomico"], "preco_local": 120000, "duracao_h": 3, "periodo": "noite", "fechado_em": [], "acessivel": true, "bom_para_criancas": false, "bairro": "San Telmo", "descricao": "Espetáculo profissional com jantar incluso."},
+    {"id": "BUE05", "nome": "Parrilla tradicional em Palermo", "categorias": ["gastronomico"], "preco_local": 45000, "duracao_h": 2, "periodo": "noite", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Palermo", "descricao": "Churrasco argentino (valor médio por pessoa)."},
+    {"id": "BUE06", "nome": "Feira de San Telmo", "categorias": ["compras", "cultural"], "preco_local": 0, "duracao_h": 3, "periodo": "manha", "fechado_em": ["segunda", "terca", "quarta", "quinta", "sexta", "sabado"], "acessivel": false, "bom_para_criancas": true, "bairro": "San Telmo", "descricao": "Feira de antiguidades — acontece somente aos domingos."},
+    {"id": "BUE07", "nome": "Bosques de Palermo e Rosedal", "categorias": ["natureza", "relax", "familia"], "preco_local": 0, "duracao_h": 2, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Palermo", "descricao": "Parques, lagos e roseiral."},
+    {"id": "BUE08", "nome": "Passeio de barco no Delta do Tigre", "categorias": ["natureza", "aventura", "familia"], "preco_local": 35000, "duracao_h": 6, "periodo": "dia_inteiro", "fechado_em": [], "acessivel": false, "bom_para_criancas": true, "bairro": "Tigre", "descricao": "Trem + passeio de barco pelo delta."},
+    {"id": "BUE09", "nome": "MALBA — Museu de Arte Latino-Americana", "categorias": ["cultural"], "preco_local": 15000, "duracao_h": 2, "periodo": "tarde", "fechado_em": ["terca"], "acessivel": true, "bom_para_criancas": true, "bairro": "Palermo", "descricao": "Acervo de arte latino-americana moderna."},
+    {"id": "BUE10", "nome": "Café Tortoni", "categorias": ["gastronomico", "cultural"], "preco_local": 12000, "duracao_h": 1, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Centro", "descricao": "Café histórico de 1858."},
+    {"id": "BUE11", "nome": "Puerto Madero ao entardecer", "categorias": ["relax", "compras"], "preco_local": 0, "duracao_h": 2, "periodo": "noite", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Puerto Madero", "descricao": "Orla revitalizada com restaurantes."}
+   ]
+  },
+  "rio_de_janeiro": {
+   "nome": "Rio de Janeiro",
+   "pais": "Brasil",
+   "moeda": "BRL",
+   "aliases": ["rio de janeiro", "rio", "rj"],
+   "hospedagem_noite_quarto_brl": {"economica": 280, "media": 550, "superior": 1100},
+   "alimentacao_dia_pessoa_brl": 150,
+   "transporte_local_dia_pessoa_brl": 40,
+   "passagem_estimada_brl_por_pessoa": 700,
+   "clima": {"1": {"mes": "janeiro", "temp_min_c": 23, "temp_max_c": 30, "dias_de_chuva": 12}, "2": {"mes": "fevereiro", "temp_min_c": 23, "temp_max_c": 31, "dias_de_chuva": 10}, "3": {"mes": "março", "temp_min_c": 23, "temp_max_c": 30, "dias_de_chuva": 10}, "4": {"mes": "abril", "temp_min_c": 22, "temp_max_c": 28, "dias_de_chuva": 8}, "5": {"mes": "maio", "temp_min_c": 20, "temp_max_c": 27, "dias_de_chuva": 7}, "6": {"mes": "junho", "temp_min_c": 19, "temp_max_c": 25, "dias_de_chuva": 5}, "7": {"mes": "julho", "temp_min_c": 18, "temp_max_c": 25, "dias_de_chuva": 5}, "8": {"mes": "agosto", "temp_min_c": 18, "temp_max_c": 26, "dias_de_chuva": 5}, "9": {"mes": "setembro", "temp_min_c": 19, "temp_max_c": 26, "dias_de_chuva": 6}, "10": {"mes": "outubro", "temp_min_c": 20, "temp_max_c": 27, "dias_de_chuva": 9}, "11": {"mes": "novembro", "temp_min_c": 21, "temp_max_c": 28, "dias_de_chuva": 10}, "12": {"mes": "dezembro", "temp_min_c": 22, "temp_max_c": 29, "dias_de_chuva": 12}},
+   "requisitos_entrada": {"brasileira": {"documento": "Documento oficial de identidade com foto (RG, CNH ou passaporte). Para voos domésticos, documento digital oficial também é aceito.", "visto": "Não se aplica (viagem nacional).", "outros": ["Menores de 16 anos desacompanhados precisam de autorização judicial ou dos responsáveis."], "fonte_oficial": "ANAC e companhia aérea"}},
+   "atracoes": [
+    {"id": "RIO01", "nome": "Cristo Redentor (Trem do Corcovado)", "categorias": ["cultural", "natureza"], "preco_local": 110, "duracao_h": 3, "periodo": "manha", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Cosme Velho", "descricao": "Cartão-postal; vá cedo para evitar filas e neblina."},
+    {"id": "RIO02", "nome": "Bondinho do Pão de Açúcar", "categorias": ["natureza", "familia"], "preco_local": 195, "duracao_h": 2.5, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Urca", "descricao": "Vista da Baía de Guanabara; ótimo no pôr do sol."},
+    {"id": "RIO03", "nome": "Praia de Ipanema", "categorias": ["relax", "natureza"], "preco_local": 0, "duracao_h": 3, "periodo": "manha", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Ipanema", "descricao": "Praia famosa; use protetor e leve pouco objeto de valor."},
+    {"id": "RIO04", "nome": "Jardim Botânico", "categorias": ["natureza", "familia"], "preco_local": 80, "duracao_h": 2, "periodo": "manha", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Jardim Botânico", "descricao": "Parque histórico de 1808."},
+    {"id": "RIO05", "nome": "Museu do Amanhã", "categorias": ["cultural", "familia"], "preco_local": 30, "duracao_h": 2, "periodo": "tarde", "fechado_em": ["segunda"], "acessivel": true, "bom_para_criancas": true, "bairro": "Centro", "descricao": "Museu de ciências na Praça Mauá."},
+    {"id": "RIO06", "nome": "Trilha do Morro Dois Irmãos (com guia)", "categorias": ["aventura", "natureza"], "preco_local": 120, "duracao_h": 4, "periodo": "manha", "fechado_em": [], "acessivel": false, "bom_para_criancas": false, "bairro": "Vidigal", "descricao": "Trilha moderada com vista de Ipanema e Leblon."},
+    {"id": "RIO07", "nome": "Escadaria Selarón e Arcos da Lapa", "categorias": ["cultural"], "preco_local": 0, "duracao_h": 1.5, "periodo": "tarde", "fechado_em": [], "acessivel": false, "bom_para_criancas": true, "bairro": "Lapa", "descricao": "Escadaria de azulejos coloridos."},
+    {"id": "RIO08", "nome": "Roda de samba na Pedra do Sal", "categorias": ["cultural"], "preco_local": 0, "duracao_h": 3, "periodo": "noite", "fechado_em": ["terca", "quarta", "quinta", "sabado", "domingo"], "acessivel": false, "bom_para_criancas": false, "bairro": "Saúde", "descricao": "Samba de rua tradicional (segundas e sextas)."},
+    {"id": "RIO09", "nome": "Feijoada tradicional", "categorias": ["gastronomico"], "preco_local": 120, "duracao_h": 2, "periodo": "tarde", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Centro", "descricao": "Prato típico (valor médio por pessoa)."},
+    {"id": "RIO10", "nome": "AquaRio", "categorias": ["familia", "natureza"], "preco_local": 160, "duracao_h": 2, "periodo": "manha", "fechado_em": [], "acessivel": true, "bom_para_criancas": true, "bairro": "Gamboa", "descricao": "Aquário marinho da cidade."},
+    {"id": "RIO11", "nome": "Confeitaria Colombo", "categorias": ["gastronomico", "cultural"], "preco_local": 70, "duracao_h": 1, "periodo": "tarde", "fechado_em": ["domingo"], "acessivel": true, "bom_para_criancas": true, "bairro": "Centro", "descricao": "Confeitaria histórica de 1894."}
+   ]
+  }
+ }
+}
